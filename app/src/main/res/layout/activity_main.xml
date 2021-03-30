@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen24"
+    android:background="@color/naval"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="@dimen/dimen24"
+        android:layout_height="@dimen/dimen24"
+        android:layout_alignParentRight="true"
+        android:background="@color/blueberrysoda"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="@dimen/dimen24"
+        android:layout_height="@dimen/dimen24"
+        android:layout_toLeftOf="@id/view1"
+        android:layout_alignParentStart="@id/view1"
+        android:background="@color/bluenight"/>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="@dimen/dimen24"
+        android:layout_height="@dimen/dimen24"
+        android:layout_alignParentLeft="true"
+        android:background="@color/blueberrysoda"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="@dimen/dimen24"
+        android:layout_height="@dimen/dimen24"
+        android:layout_toRightOf="@id/view3"
+        android:layout_alignParentStart="@id/view3"
+        android:background="@color/bluenight"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen16"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/nama"
+        android:layout_below="@id/view4"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/namavalue"
+        android:layout_alignParentStart="@id/txt1"
+        android:layout_below="@id/txt1"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen16"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/nim"
+        android:layout_below="@id/txt2"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/nimvalue"
+        android:layout_below="@id/txt3"/>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/kelas"
+        android:layout_below="@id/txt4"/>
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/kelasvalue"
+        android:layout_below="@id/txt5"/>
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/foto"
+        android:layout_below="@id/txt6"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen70"
+        android:src="@drawable/z"
+        android:layout_below="@id/txt7"/>
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/kelamin"
+        android:layout_below="@id/img1"/>
+
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/kelaminvalue"
+        android:layout_below="@id/txt8"/>
+
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/ttl"
+        android:layout_below="@id/txt9"/>
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/ttlvalue"
+        android:layout_below="@id/txt10"/>
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/alamat"
+        android:layout_below="@id/txt11"/>
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/alamatvalue"
+        android:layout_below="@id/txt12"/>
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/goldar"
+        android:layout_below="@id/txt13"/>
+
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/goldarvalue"
+        android:layout_below="@id/txt14"/>
+
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/makanan"
+        android:layout_below="@id/txt15"/>
+
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/makananvalue"
+        android:layout_below="@id/txt16"/>
+
+    <TextView
+        android:id="@+id/txt18"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/minuman"
+        android:layout_below="@id/txt17"/>
+
+    <TextView
+        android:id="@+id/txt19"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/minumanvalue"
+        android:layout_below="@id/txt18"/>
+
+    <TextView
+        android:id="@+id/txt20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/hobi"
+        android:layout_below="@id/txt19"/>
+
+    <TextView
+        android:id="@+id/txt21"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/hobivalue"
+        android:layout_below="@id/txt20"/>
+
+    <TextView
+        android:id="@+id/txt22"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/lagu"
+        android:layout_below="@id/txt21"/>
+
+    <TextView
+        android:id="@+id/txt23"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/laguvalue"
+        android:layout_below="@id/txt22"/>
+
+    <TextView
+        android:id="@+id/txt24"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/film"
+        android:layout_below="@id/txt23"/>
+
+    <TextView
+        android:id="@+id/txt25"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/filmvalue"
+        android:layout_below="@id/txt24"/>
+
+    <TextView
+        android:id="@+id/txt26"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt12"
+        android:text="@string/pekerjaan"
+        android:layout_below="@id/txt25"/>
+
+    <TextView
+        android:id="@+id/txt27"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen18"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimentxt14"
+        android:text="@string/pekerjaanvalue"
+        android:layout_below="@id/txt26"/>
+</RelativeLayout>

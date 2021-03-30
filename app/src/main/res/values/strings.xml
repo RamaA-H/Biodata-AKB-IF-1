@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Biodata :</string>
+    <string name="nama">Nama :</string>
+    <string name="nim">NIM :</string>
+    <string name="kelas">Kelas :</string>
+    <string name="foto">Foto :</string>
+    <string name="kelamin">Jenis Kelamin :</string>
+    <string name="ttl">Tempat, Tanggal Lahir :</string>
+    <string name="alamat">Alamat :</string>
+    <string name="goldar">Golongan Darah :</string>
+    <string name="makanan">Makanan Kesukaan :</string>
+    <string name="minuman">Minuman Kesukaan :</string>
+    <string name="hobi">Hobi :</string>
+    <string name="lagu">Lagu Favorit :</string>
+    <string name="film">Film Favorit :</string>
+    <string name="pekerjaan">Pekerjaan yang diinginkan setelah kuliah :</string>
+    <string name="namavalue">Rama Al Halik </string>
+    <string name="nimvalue">10118007 </string>
+    <string name="kelasvalue">IF-1</string>
+    <string name="kelaminvalue">Laki - Laki</string>
+    <string name="ttlvalue">TanjungPandan, 21 Desember 2000</string>
+    <string name="alamatvalue">Jln Telex 2</string>
+    <string name="goldarvalue">A+</string>
+    <string name="makananvalue">Junkfood dan Seafood</string>
+    <string name="minumanvalue">Susu dan Minuman bersoda</string>
+    <string name="hobivalue">Tidur dan main game</string>
+    <string name="laguvalue">Apa saja selama nyaman didengar</string>
+    <string name="filmvalue">Film bergenre comedy, action, crime, dan sci-fi</string>
+    <string name="pekerjaanvalue">Yang bisa menghasilkan uang</string>
+</resources>
